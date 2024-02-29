@@ -13,6 +13,14 @@ let var3 = "1"
 // console.log(var3 * 2);
 // console.log(var3 + 2);
 
+// JS dynamically changing
+
+
+// console.log(0 == "0");
+// console.log(0 === "0");
+// console.log(0 !== "0");
+// console.log(0 != "0");
+
 
 // block - const, let
 // function - let, const and var
@@ -60,10 +68,20 @@ let string = "         Hello I am taking my classes so well!!         "
 // console.log(decimal.toPrecision(4));
 
 
-console.log(Math.random() * 10);
+// console.log(Math.random() * 10);
 
 const min = 10
 const max = 20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+//  0 - 1 x 11 -->  0 - 11 + 10
+
+
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min);
+
+// console.log(Math.floor(3.9));
+
+// console.log(Math.ceil(2.000000000001));
+
+
+
 
