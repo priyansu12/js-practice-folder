@@ -75,9 +75,9 @@ function sumArr(arr) {
 
 
 const car1 = {
-    "color" : "blue",
-    "name" : "BMW",
-    "mileage" : 100
+    0 : "blue",
+    1 : "BMW",
+    2: 100
 }
 
 const car2 = {
@@ -86,8 +86,8 @@ const car2 = {
     "mileage" : 200
 }
 
-console.log(car1["color"]);
-console.log(car1.color);
+// console.log(car1["color"]);
+// console.log(car1.color);
 
 const newObj = {
     name: "Test",
@@ -97,5 +97,21 @@ const newObj = {
         class : "std"
     },
     "date" : "12-12-12"
+}
+
+function sum (a, b) {
+    return a + b;
+}
+
+function calculator (operation, a, b) {
+    if(operation == "sum") {
+        sum(a, b)
+    }
+}
+
+calculator(sum(2,3));
+
+for (let i = 0; i < 3; i++) {
+    console.log(car1[i]);
 }
 
